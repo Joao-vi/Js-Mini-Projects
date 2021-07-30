@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Projects</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="grid-projects">
+      <div class="project">
+        <h2>Scroll effects</h2>
+        <div class="overflow-y">
+          <div class="scroll-animation">
+            <div class="cont">
+              <h2>Cont1</h2>
+            </div>
+            <div class="cont">
+              <h2>Cont2</h2>
+            </div>
+            <div class="cont" data-animation="top">
+              <h2>Cont3</h2>
+            </div>
+            <div class="cont" data-animation="top">
+              <h2>Cont4</h2>
+            </div>
+            <div class="cont" data-animation="top">
+              <h2>Cont5</h2>
+            </div>
+            <div class="cont" data-animation="top">
+              <h2>Cont6</h2>
+            </div>
+            <div class="cont" data-animation="top">
+              <h2>Cont7</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project">
+        <h2>Slider</h2>
+        <div class="slider">
+          <div class="img"><img src="assets/slider/img1.jpg" /></div>
+          <div class="img"><img src="assets/slider/img2.jpg" /></div>
+          <div class="img"><img src="assets/slider/img3.jpg" /></div>
+          <div class="img"><img src="assets/slider/img4.jpg" /></div>
+          <div class="img"><img src="assets/slider/img5.jpg" /></div>
+        </div>
+      </div>
+
+      <div class="project">
+        <h2>Progress Bar</h2>
+        <div class="progress-app">
+          <div class="progress-bar">
+            <h2 class="number">1</h2>
+            <div class="bar">
+              <div class="check-bar"></div>
+            </div>
+            <h2 class="number">2</h2>
+            <div class="bar">
+              <div class="check-bar"></div>
+            </div>
+            <h2 class="number">3</h2>
+            <div class="bar">
+              <div class="check-bar"></div>
+            </div>
+            <h2 class="number">4</h2>
+          </div>
+          <div class="buttons">
+            <button class="prev">Prev</button>
+            <button class="next">Next</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="project">
+        <h2>Search Animation</h2>
+        <div class="search-animation">
+          <div class="search-btn">
+            <div class="search-bar">
+              <input type="text" placeholder="Search..." />
+            </div>
+            <i class="fas fa-search"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="slider.js"></script>
+    <script src="checker.js"></script>
+    <script src="searchBtn.js"></script>
+    <script src="scroll.js"></script>
+  </body>
+</html>
